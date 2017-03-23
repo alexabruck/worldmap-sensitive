@@ -3,13 +3,13 @@ TopoJSON worldmaps with modified country borders
 
 Maps are originally based on the the low-res world maps included in the markmarkoh/datamaps project:
 https://github.com/markmarkoh/datamaps/blob/master/src/js/data/world.json
-Datamaps maps are themselves based on 'shapefiles produced by "Natural Earth": http://www.naturalearthdata.com/downloads/
+Datamaps maps are themselves based on shapefiles produced by "Natural Earth": http://www.naturalearthdata.com/downloads/
 
 How I produced the modified maps:
-- Original File type: GeoJSON (from datamaps repository)
+- Original File type: GeoJSON (from datamaps repository) Located in /src folder
 - Manually modified the topology via the Application QGIS (having "topological editing" enabled)
-- saved file as GeoJSON
-- converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md
+- saved file as GeoJSON 
+- converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md Located in /dist folder
 
 ## Topological adaptations:
 ### Border Marocco / Western Sahara
