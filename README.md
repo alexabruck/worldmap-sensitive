@@ -1,6 +1,10 @@
 # worldmap-sensitive
 TopoJSON worldmap with modified country borders
 
+### The final world map is located in the /dist folder
+
+
+### Process
 Map is originally based on the the world maps included in the markmarkoh/datamaps project:
 https://github.com/markmarkoh/datamaps/blob/master/src/js/data/world.json
 
@@ -16,7 +20,6 @@ How I produced the modified maps:
 - Saved the file as GeoJSON 
 - Converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md 
 
-- The final world map is located in the /dist folder
 
 ## Topological adaptations:
 ### Border Marocco / Western Sahara
