@@ -4,7 +4,7 @@ TopoJSON worldmap with modified country borders
 ### The final world map is located in the /dist folder
 
 
-### Process
+## Process
 Map is originally based on the the world maps included in the markmarkoh/datamaps project:
 https://github.com/markmarkoh/datamaps/blob/master/src/js/data/world.json
 
