@@ -1,15 +1,22 @@
 # worldmap-sensitive
-TopoJSON worldmaps with modified country borders
+TopoJSON worldmap with modified country borders
 
-Maps are originally based on the the low-res world maps included in the markmarkoh/datamaps project:
+Map is originally based on the the world maps included in the markmarkoh/datamaps project:
 https://github.com/markmarkoh/datamaps/blob/master/src/js/data/world.json
-Datamaps maps are themselves based on shapefiles produced by "Natural Earth": http://www.naturalearthdata.com/downloads/
+
+I took their low-resolution map and added countries from the high resolution map that were missing.
+The result is a map that doesn't include all existing territories (small islands are missing) but has all countries.
+
+Datamaps' maps are themselves based on shapefiles produced by "Natural Earth": http://www.naturalearthdata.com/downloads/
 
 How I produced the modified maps:
-- Original File type: GeoJSON (from datamaps repository) Located in /src folder
+- Original File type: GeoJSON (from datamaps repository). Located in /src folder ("world.json")
+- Added territories (feature objects) from higher resolution version. Located in /src folder ("world.hires.json")
 - Manually modified the topology via the Application QGIS (having "topological editing" enabled)
-- saved file as GeoJSON 
-- converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md Located in /dist folder
+- Saved the file as GeoJSON 
+- Converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md 
+
+- The final world map is located in the /dist folder
 
 ## Topological adaptations:
 ### Border Marocco / Western Sahara
