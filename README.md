@@ -18,7 +18,8 @@ Datamaps' maps are themselves based on shapefiles produced by "Natural Earth": h
 How I produced the modified maps:
 - Original File type: GeoJSON (from datamaps repository). Located in /src folder ("world.json")
 - Added territories (feature objects) from higher resolution version. Located in /src folder ("world.hires.json")
-- Manually modified the topology via the Application QGIS (having "topological editing" enabled)
+- Corrected topology errors (overlapping borders) that were a side effect of merging high-resolution maps with low-resolution maps (e.g. Liechtenstein)
+- This manual work was done via the Application QGIS (toggling the setting for "topological editing")
 - Saved the file as GeoJSON 
 - Converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md 
 
