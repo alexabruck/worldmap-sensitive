@@ -21,6 +21,11 @@ How I produced the modified maps:
 - Saved the file as GeoJSON 
 - Converted file to TopoJSON via the command line tool geo2topo (Mike Bostock): https://github.com/topojson/topojson/blob/master/README.md 
 
+## United Nations membership status
+The GEOJSON feature object associated to each country has a field "memberstate" that encoded UN membership as a boolean (true/false)
+
+## Country names
+Country names are according to the official UN listing
 
 ## Topological adaptations:
 ### Border Marocco / Western Sahara
