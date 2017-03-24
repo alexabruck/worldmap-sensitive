@@ -9,7 +9,7 @@ Map is originally based on the the world maps included in the markmarkoh/datamap
 https://github.com/markmarkoh/datamaps/blob/master/src/js/data/world.json
 
 I took their low-resolution map and added countries from the high resolution map that were missing.
-The result is a map that doesn't include all existing territories (some islands that are oversea territories are missing) but has all countries.
+The resulting map is a compromise: It doesn't include all existing territories (some smaller islands that are oversea territories are missing) but it makes sure that all countries are included.
 
 Datamaps' maps are themselves based on shapefiles produced by "Natural Earth": http://www.naturalearthdata.com/downloads/
 
